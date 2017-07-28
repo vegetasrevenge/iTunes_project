@@ -1,0 +1,108 @@
+body {
+  margin: 0 auto;
+  border: solid 1px black;
+  border-collapse: collapse;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+
+#header {
+  margin: 0 auto;
+  line-height: 50px;
+  border-bottom: solid 2px #999999;
+  text-align: center;
+  font-size: 44px;
+  background-color: #2C3E50;
+ }
+
+#header h1 {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#search {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  border-bottom: solid 2px grey;
+}
+
+audio {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 75px;
+  visibility: hidden;
+}
+
+#submitForm {
+  width: 50%;
+  display: flex;
+}
+
+#searchText {
+  margin: 25px;
+  margin-left: 30px;
+  flex-basis: 50%;
+  background-color: #2C3E50;
+  color: white;
+}
+#submitButton {
+  margin: 25px;
+  flex-basis: 20%;
+}
+
+#submitButton:focus {
+  background-color: #2C3E50;
+  color: white;
+}
+
+#searchResults {
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #2C3E50;
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+  color: white;
+}
+
+
+h3 {
+  font-size: 24px;
+  margin: 20px 50px;
+  font-weight: 200;
+  color: #243540;
+}
+
+#result {
+  flex-basis: 25%;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px grey;
+}
+
+#result:hover {
+  background-color: aliceblue;
+  transition-duration: 500ms;
+
+}
+
+p.musicDes {
+  margin: 0 auto;
+  color: #00D3FF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.thumbnail {
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 20px;
+}
